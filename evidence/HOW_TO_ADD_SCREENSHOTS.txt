@@ -1,0 +1,25 @@
+How to keep screenshots safe (recommended)
+
+Option A — Save images in this folder (best)
+1. Download / clone this repo to your computer.
+2. Put screenshots in the matching folder:
+   - evidence/BUG-001/          for bug BUG-001
+   - evidence/strengths/        for strength screenshots
+   - evidence/suggestions/      for suggestion screenshots
+   - evidence/device/           for device info screenshot
+   - evidence/batch/            for Batch Remover screenshots
+3. Use clear names, for example:
+   - BUG-001_01_after_bg_remove.png
+   - BUG-001_02_after_shape.png
+   - device_oneplus9_about.png
+4. Push the image files to GitHub (or send them here to be committed).
+5. Images stay in Git even when the Word report is updated later.
+6. We can insert these same files into the .docx so you do not re-upload.
+
+Option B — Insert into Word on your PC
+1. Download SQA_Intern_Assignment_Test_Report.docx
+2. Paste screenshots into the Evidence boxes
+3. Also copy the same image files into evidence/ (Option A) so they are backed up
+4. Upload / push both the .docx and the evidence/ images
+
+Tip: Always keep original screenshots in evidence/. The Word file can be rebuilt; image files in Git are the safe copy.
